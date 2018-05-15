@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+node_modules/
+public/scripts
+public/bundle.js
+r-07-12-class-properties/
