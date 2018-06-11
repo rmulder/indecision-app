@@ -72,3 +72,29 @@ console.log(bear.fangs);
 bear.setFangs(2);
 console.log(bear.fangs);
 console.log(bear.getFangs());
+
+// countdown
+for (var i = 10; i > 0; i--) {
+    (function (x) {
+        setTimeout(function () {
+            (function (x) {
+                console.log(x);
+            })(x);
+        }, 1000);
+    })(i);
+}
+
+
+// i/p: "ab  cde   fg   hij" 18
+// o/p: "ab cde fg hij" 13
+// First: split string on whitespace (regex) and then join with one space
+
+
+// o/p: "ab   cde   fg  hij" 18
+// Second: split string on whitespace(regex); but keep track of full number of spaces;
+// then, join string with (floor) of avg. num of spaces; redistribute as evenly as possible (floor);
+// extra spaces should go into the first group(s) - i.e., NOT just the first one
+
+//modal popup - 
+Vaibhav Rao: vaibhav.rao@8x8.com
+
